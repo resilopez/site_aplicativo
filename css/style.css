@@ -1,5 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
 }
 .header {
     background-image: url(../img/imagem-05.jpg);
@@ -10,6 +11,10 @@ body{
     color: #ffffff;
     padding-bottom: 220px;
     text-transform: uppercase;
+}
+
+.img-responsive {
+    margin: 0;
 }
 
 .header_2{
@@ -117,7 +122,7 @@ body{
 
 .linha {
     background-color: rgb(220, 53, 69);
-    position: static;
+    position: relative;
     height: auto;
     width: 100%;
     min-height: 5px;
@@ -127,6 +132,7 @@ body{
 .titulo_pequeno{
     color:rgb(220, 53, 69) ;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .titulo_footer{
@@ -165,6 +171,11 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 20px;
+}
+
+.paragrafo{
+    font-size: 18px;
+    font-weight: 200;
 }
 
 .footer-site{
