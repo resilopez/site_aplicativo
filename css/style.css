@@ -1,0 +1,199 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.header {
+    background-image: url(../img/imagem-05.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-bottom: 220px;
+    text-transform: uppercase;
+}
+
+.header_2{
+    width: 100%;
+    background-color: rgba(0,0,0,.1);
+    z-index: 100;
+}
+
+.header_2 nav{
+    text-align: center;
+}
+
+.header_2 nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header_2 img {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+}
+
+.header_2 nav li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: all ease 0.5s;
+    margin-right: 100px;
+}
+
+.header_2 nav li a:hover{
+    background-color: rgb(220, 53, 69);
+    padding: 25px;
+}
+
+.centralizar{
+    margin-left: 120px;
+}
+
+.frase{
+    margin-top: 220px;
+}
+
+#logo
+{
+    text-transform: uppercase;
+    color:rgb(220, 53, 69);
+}
+
+
+.content-site{
+    padding-top: 73px;
+    padding-bottom:73px;
+}
+
+.citacao{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+
+.col i{
+    color: rgb(220, 53, 69);
+    font-size: 50px;   
+    padding: 50px;
+    margin-left:40px;
+}
+
+.coluna{
+    text-align: center;
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 200;
+    margin-right: 5px;
+}
+
+.geral_coluna{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.titulo_card{
+    padding-bottom: 28px;
+}
+
+.geral-card-um{
+    padding-bottom: 27px;
+}
+
+.geral-card-dois{
+    padding-bottom: 26px;
+}
+
+.caption{
+    padding: 20px;
+}
+
+.linha {
+    background-color: rgb(220, 53, 69);
+    position: static;
+    height: auto;
+    width: 100%;
+    min-height: 5px;
+}
+
+
+.titulo_pequeno{
+    color:rgb(220, 53, 69) ;
+    text-transform: uppercase;
+}
+
+.titulo_footer{
+    color:#ffffff ;
+    text-transform: uppercase;
+}
+
+.rede_social{
+    color: #ffffff;
+}
+
+.text_footer{
+    color:#ffffff ;
+}
+
+.img-site{
+    background-image: url(../img/imagem-06.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #ffffff;
+}
+.botao_enviar{
+    padding: 0PX;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
+.col_2 i{
+    color: #ffffff;
+    font-size: 50px;   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+
+.footer-site{
+    background-color: rgb(220, 53, 69);
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+/* Animação */
+
+[data-anime] {
+    opacity: 0;
+    transition: .5s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-1000px, 0, 0);
+}
+
+[data-anime="right"]{
+    transform: translate3d(1000px, 0, 0);
+}
+
+[data-anime="top"]{
+    transform: translate3d(0px, -50px, 0);
+}
+
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
